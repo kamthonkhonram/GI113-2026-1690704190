@@ -42,6 +42,60 @@ namespace Lab02
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
 
+            // Lab 02 Part B
+            string warriorName = "Cyrus";
+            int warriorHp = 300;
+            float warriorSpeed = 7.5f;
+            char warriorRank = 'A';
+            bool warriorAlive = true;
+
+            string mageName = "Aurora";
+            int mageMana = 250;
+            double mageMagicPower = 85.5;
+            char mageRank = 'S';
+            bool mageAlive = true;
+
+            string archerName = "Maple";
+            int archerHp = 180;
+            float archerAccuracy = 92.5f;
+            char archerRank = 'A';
+            bool archerAlive = true;
+
+            string healerName = "Nestor";
+            int healerHp = 200;
+            double healerHealPower = 75.25;
+            char healerRank = 'B';
+            bool healerAlive = true;
+
+            Console.WriteLine("===== CHARACTER STATUS : FANTASY GAME =====");
+
+            Console.WriteLine("----- Warrior -----");
+            Console.WriteLine($"Name: {warriorName}");
+            Console.WriteLine($"HP: {warriorHp}");
+            Console.WriteLine($"Speed: {warriorSpeed}");
+            Console.WriteLine($"Rank: {warriorRank}");
+            Console.WriteLine($"Alive: {warriorAlive}");
+
+            Console.WriteLine("----- Mage -----");
+            Console.WriteLine($"Name: {mageName}");
+            Console.WriteLine($"Mana: {mageMana}");
+            Console.WriteLine($"Magic Power: {mageMagicPower}");
+            Console.WriteLine($"Rank: {mageRank}");
+            Console.WriteLine($"Alive: {mageAlive}");
+
+            Console.WriteLine("----- Archer -----");
+            Console.WriteLine($"Name: {archerName}");
+            Console.WriteLine($"HP: {archerHp}");
+            Console.WriteLine($"Accuracy: {archerAccuracy}");
+            Console.WriteLine($"Rank: {archerRank}");
+            Console.WriteLine($"Alive: {archerAlive}");
+
+            Console.WriteLine("----- Healer -----");
+            Console.WriteLine($"Name: {healerName}");
+            Console.WriteLine($"HP: {healerHp}");
+            Console.WriteLine($"Heal Power: {healerHealPower}");
+            Console.WriteLine($"Rank: {healerRank}");
+            Console.WriteLine($"Alive: {healerAlive}");
         }
         
         
