@@ -49,23 +49,7 @@ namespace Lab03
             Console.WriteLine($"Crit Multiplier; (int cast): {castPower}");
             Console.WriteLine("Crit Multiplier (Convert rounded): " + Convert.ToInt32(critMultiplier));
 
-
-
-
-
-
-
             // Cast vs. Convert critMuliplier (double) -->> int
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
