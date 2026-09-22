@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Student ID : 1690704190
  * Name       : Assignment01
  * Section    : 129D
